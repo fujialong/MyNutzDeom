@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="MyNutzDeom:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="MyNutzDeom-1.0.0.war">
+      <element id="artifact" artifact-name="MyNutzDeom:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mediautil-1.0" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
